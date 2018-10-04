@@ -11037,7 +11037,7 @@ msgstr "השם הזה ישמש עבור כל תעודה שתקבל/י."
 #: themes/stanford-style/lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Public Username"
-msgstr "שם משתמש"
+msgstr "שם משתמש <באנגלית ובלי רווחים>"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
