@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='softwaresecurephotoverification',
-            name='send_email_date',
+            name='expiry_email_date',
             field=models.DateTimeField(blank=True, null=True),
         ),
     ]
