@@ -538,10 +538,10 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
 
     # Fields for functionality of sending email when verification expires
     # expiry_date: The date when the SoftwareSecurePhotoVerification will expire
-    # send_email_date: This field is used to maintain a check for learners to which email
+    # expiry_email_date: This field is used to maintain a check for learners to which email
     # to notify for expired verification is already sent.
     expiry_date = models.DateTimeField(null=True, blank=True)
-    send_email_date = models.DateTimeField(null=True, blank=True)
+    expiry_email_date = models.DateTimeField(null=True, blank=True)
 
     @classmethod
     def get_initial_verification(cls, user, earliest_allowed_date=None):
